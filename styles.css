@@ -1,4 +1,12 @@
-img {
+body {
+  background-color:White; 
+  color: black;          
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+  
+  img {
   width: 400px;  
   height: auto;
   border: 2px solid black;
