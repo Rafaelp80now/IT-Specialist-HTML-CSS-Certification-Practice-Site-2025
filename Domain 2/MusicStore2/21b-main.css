@@ -2,4 +2,7 @@
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
 } 
-
+.sale {
+    font-weight: bold;
+    background-color: aqua;
+}
