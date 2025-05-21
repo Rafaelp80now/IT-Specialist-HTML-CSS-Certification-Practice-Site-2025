@@ -2,6 +2,10 @@ body {
     front-family:'Segoe UI', Tahoma,sans-serif;
     background-color:#fab66b
 }
-p{
+p {
    color: navy;
+}
+.sale {
+    font-weight: bold;
+    background-color:aqua;
 }
