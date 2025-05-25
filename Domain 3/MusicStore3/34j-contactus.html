@@ -13,42 +13,49 @@
 
     <!-- insert form here-->
     <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
-        <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" />
-        <br />
+        <fieldset>
+            <legend>Personal</legend>
 
-        <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
-        <br />
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+            <br />
 
-        <label for="email">Email Address</label>
-        <input type="email" name="email" id="email" />
-        <br />
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+            <br />
 
-        <p>How did you hear about us?</p>
-        <select name="found" id="found">
-            <optgroup label="Media">
-                <option value="TV">TV</option>
-                <option value="Radio" selected>Radio</option>
-                <option value="Other">Other</option>
-            </optgroup>
-            <optgroup label="Web">
-                <option value="Google">Google</option>
-                <option value="Bing">Bing</option>
-            </optgroup>
-        </select>
-        <br />
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" />
+            <br />
+        </fieldset>
 
-        <!-- Datalist section -->
-        <p>What instrument are you most interested in learning?</p>
-        <input type="text" name="instrument" list="instruments" />
-        <datalist id="instruments">
-            <option value="guitar">guitar</option>
-            <option value="piano">piano</option>
-            <option value="drums">drums</option>
-            <option value="bass">bass</option>
-        </datalist>
-        <br />
+        <fieldset>
+            <legend>Questions</legend>
+
+            <p>How did you hear about us?</p>
+            <select name="found" id="found">
+                <optgroup label="Media">
+                    <option value="TV">TV</option>
+                    <option value="Radio" selected>Radio</option>
+                    <option value="Other">Other</option>
+                </optgroup>
+                <optgroup label="Web">
+                    <option value="Google">Google</option>
+                    <option value="Bing">Bing</option>
+                </optgroup>
+            </select>
+            <br />
+
+            <p>What instrument are you most interested in learning?</p>
+            <input type="text" name="instrument" list="instruments" />
+            <datalist id="instruments">
+                <option value="guitar">guitar</option>
+                <option value="piano">piano</option>
+                <option value="drums">drums</option>
+                <option value="bass">bass</option>
+            </datalist>
+            <br />
+        </fieldset>
 
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
@@ -65,3 +72,4 @@
 
 </body>
 </html>
+
