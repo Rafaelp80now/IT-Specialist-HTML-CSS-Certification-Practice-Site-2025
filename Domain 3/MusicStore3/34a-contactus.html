@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Contact Us - THE Music Store</title>
 </head>
 <body>
     <h2>Contact Us</h2>
@@ -10,7 +10,18 @@
     We look forward to hearing from you!</p>
 
     <!-- insert form here-->
+    <form action="thankyou.html" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
 
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br /><br />
+
+        <input type="submit" value="Submit" />
+    </form>
     
 </body>
 </html>
