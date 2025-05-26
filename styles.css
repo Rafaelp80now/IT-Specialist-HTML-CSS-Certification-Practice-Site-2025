@@ -21,3 +21,8 @@ a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+p a {
+  display: block;
+  text-align: left;
+  /* resto igual */
+}
